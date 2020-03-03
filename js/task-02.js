@@ -4,9 +4,8 @@ const intOrdered = Number(ordered);
 
 const total = 100;
 
-if(intOrdered <= total){
+if (intOrdered <= total) {
     console.log('Заказ оформлен, с вами свяжется менеджер');
-}else{
+} else {
     console.log('На складе недостаточно твоаров!')
 }
-
