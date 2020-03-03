@@ -8,6 +8,10 @@ while (running) {
         total += Number(input);
     } else {
         running = false;
-        alert('Done');
+        alert(`Done the total is ${total}`);
     }
+}
+
+const fn = function(){
+    const args = Array.from(arguments);
 }
